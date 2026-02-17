@@ -330,4 +330,7 @@ const styles = StyleSheet.create({
   },
 });
 
+UsersListScreen.propTypes = {
+  navigation: PropTypes.object.isRequired
+};
 export default UsersListScreen;
