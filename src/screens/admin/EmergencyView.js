@@ -402,4 +402,8 @@ const styles = StyleSheet.create({
   },
 });
 
+EmergencyView.propTypes = {
+  route: PropTypes.object.isRequired,
+  navigation: PropTypes.object.isRequired
+};
 export default EmergencyView;
