@@ -441,4 +441,7 @@ const styles = StyleSheet.create({
   },
 });
 
+AdminHomeScreen.propTypes = {
+  navigation: PropTypes.object.isRequired
+};
 export default AdminHomeScreen;
