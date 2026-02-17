@@ -541,4 +541,7 @@ const styles = StyleSheet.create({
   },
 });
 
+RegisterAdminScreen.propTypes = {
+  navigation: PropTypes.object.isRequired
+};
 export default RegisterAdminScreen;
