@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { colors } from '../constants/colors';
+import PropTypes from 'prop-types';
 
 const ClassCard = ({ classItem, onPress, showStatus = true }) => {
   const getClassColor = (type) => {
@@ -131,4 +132,9 @@ const styles = StyleSheet.create({
   },
 });
 
+ClassCard.propTypes = {
+  classItem: PropTypes.object.isRequired,
+  onPress: PropTypes.func.isRequired,
+  showStatus: PropTypes.bool
+};
 export default ClassCard;
