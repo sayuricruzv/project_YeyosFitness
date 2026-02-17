@@ -711,4 +711,7 @@ const styles = StyleSheet.create({
   },
 });
 
+ForgotPasswordScreen.propTypes = {
+  navigation: PropTypes.object.isRequired
+};
 export default ForgotPasswordScreen;
