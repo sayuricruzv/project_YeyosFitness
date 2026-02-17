@@ -805,4 +805,7 @@ const styles = StyleSheet.create({
   },
 });
 
+RegisterScreen.propTypes = {
+  navigation: PropTypes.object.isRequired
+};
 export default RegisterScreen;
