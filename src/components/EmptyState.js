@@ -60,4 +60,11 @@ const styles = StyleSheet.create({
   },
 });
 
+EmptyState.propTypes = {
+  icon: PropTypes.element,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  buttonTitle: PropTypes.string,
+  onButtonPress: PropTypes.func
+};
 export default EmptyState;
