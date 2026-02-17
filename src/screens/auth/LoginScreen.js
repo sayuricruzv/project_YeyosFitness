@@ -611,4 +611,8 @@ const styles = StyleSheet.create({
   },
 });
 
+LoginScreen.propTypes = {
+  navigation: PropTypes.object.isRequired,
+  route: PropTypes.object
+};
 export default LoginScreen;
