@@ -438,4 +438,8 @@ const styles = StyleSheet.create({
   },
 });
 
+UserDetailScreen.propTypes = {
+  route: PropTypes.object.isRequired,
+  navigation: PropTypes.object.isRequired
+};
 export default UserDetailScreen;
