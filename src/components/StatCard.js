@@ -53,4 +53,11 @@ const styles = StyleSheet.create({
   },
 });
 
+StatCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  icon: PropTypes.element,
+  color: PropTypes.string,
+  unit: PropTypes.string
+};
 export default StatCard;
