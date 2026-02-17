@@ -153,4 +153,16 @@ const styles = StyleSheet.create({
   },
 });
 
+CustomButton.propTypes = {
+  title: PropTypes.string.isRequired,
+  onPress: PropTypes.func.isRequired,
+  loading: PropTypes.bool,
+  disabled: PropTypes.bool,
+  style: PropTypes.object,
+  textStyle: PropTypes.object,
+  variant: PropTypes.string,
+  icon: PropTypes.element,
+  iconPosition: PropTypes.string,
+  gradientColors: PropTypes.arrayOf(PropTypes.string)
+};
 export default CustomButton;
