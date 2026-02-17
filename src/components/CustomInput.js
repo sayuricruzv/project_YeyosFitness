@@ -182,4 +182,23 @@ const styles = StyleSheet.create({
 
 CustomInput.displayName = 'CustomInput';
 
+CustomInput.propTypes = {
+  label: PropTypes.string,
+  value: PropTypes.string.isRequired,
+  onChangeText: PropTypes.func.isRequired,
+  placeholder: PropTypes.string,
+  secureTextEntry: PropTypes.bool,
+  keyboardType: PropTypes.string,
+  autoCapitalize: PropTypes.string,
+  icon: PropTypes.element,
+  rightIcon: PropTypes.element,
+  onRightIconPress: PropTypes.func,
+  error: PropTypes.string,
+  editable: PropTypes.bool,
+  maxLength: PropTypes.number,
+  containerStyle: PropTypes.object,
+  inputStyle: PropTypes.object,
+  returnKeyType: PropTypes.string,
+  onSubmitEditing: PropTypes.func
+};
 export default CustomInput;
