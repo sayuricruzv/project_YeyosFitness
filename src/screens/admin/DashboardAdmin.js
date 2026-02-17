@@ -144,4 +144,7 @@ const styles = StyleSheet.create({
   },
 });
 
+DashboardAdmin.propTypes = {
+  navigation: PropTypes.object.isRequired
+};
 export default DashboardAdmin;
